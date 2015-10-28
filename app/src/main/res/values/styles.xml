@@ -8,4 +8,23 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <!-- Text Styles. -->
+    <style name="FontText"  parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorTextDark</item>
+    </style>
+
+    <style name="FontText.ListItemTitle">
+        <item name="android:textSize">@dimen/list_item_title_text_size</item>
+    </style>
+
+    <style name="FontText.UserDetailsName">
+        <item name="android:textSize">@dimen/user_details_name_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="FontText.UserDetailsDescription">
+        <item name="android:textSize">@dimen/user_details_description_text_size</item>
+    </style>
+
 </resources>
