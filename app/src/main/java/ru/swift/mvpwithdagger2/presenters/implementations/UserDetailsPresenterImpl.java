@@ -2,9 +2,9 @@ package ru.swift.mvpwithdagger2.presenters.implementations;
 
 import javax.inject.Inject;
 
-import ru.swift.mvpwithdagger2.interactors.UserDetailsInteractor;
-import ru.swift.mvpwithdagger2.interactors.implementations.UserDetailsInteractorImpl;
-import ru.swift.mvpwithdagger2.listeners.UserDetailsInteractorListener;
+import ru.swift.mvpwithdagger2.domain.interactors.UserDetailsInteractor;
+import ru.swift.mvpwithdagger2.domain.interactors.implementations.UserDetailsInteractorImpl;
+import ru.swift.mvpwithdagger2.domain.listeners.UserDetailsInteractorListener;
 import ru.swift.mvpwithdagger2.models.UserDetails;
 import ru.swift.mvpwithdagger2.presenters.UserDetailsPresenter;
 import ru.swift.mvpwithdagger2.views.UserDetailsView;

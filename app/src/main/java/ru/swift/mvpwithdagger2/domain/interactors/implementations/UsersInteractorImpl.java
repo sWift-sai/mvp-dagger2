@@ -1,4 +1,4 @@
-package ru.swift.mvpwithdagger2.interactors.implementations;
+package ru.swift.mvpwithdagger2.domain.interactors.implementations;
 
 
 import android.os.Handler;
@@ -6,18 +6,17 @@ import android.os.Handler;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.inject.Inject;
-
-import ru.swift.mvpwithdagger2.interactors.UsersInteractor;
-import ru.swift.mvpwithdagger2.listeners.UsersInteractorListener;
+import ru.swift.mvpwithdagger2.domain.interactors.UsersInteractor;
+import ru.swift.mvpwithdagger2.domain.listeners.UsersInteractorListener;
 import ru.swift.mvpwithdagger2.models.User;
 
 public class UsersInteractorImpl implements UsersInteractor {
-
-    @Inject
-    public UsersInteractorImpl() {
-    }
-
+    /*
+        @Inject
+        @ActivityScope
+        public UsersInteractorImpl() {
+        }
+    */
     @Override
     public void getUsers(final UsersInteractorListener listener) {
         // TODO: Temp. Retrofit call will be implemented here!

@@ -1,12 +1,12 @@
-package ru.swift.mvpwithdagger2.interactors.implementations;
+package ru.swift.mvpwithdagger2.domain.interactors.implementations;
 
 
 import android.os.Handler;
 
 import javax.inject.Inject;
 
-import ru.swift.mvpwithdagger2.interactors.UserDetailsInteractor;
-import ru.swift.mvpwithdagger2.listeners.UserDetailsInteractorListener;
+import ru.swift.mvpwithdagger2.domain.listeners.UserDetailsInteractorListener;
+import ru.swift.mvpwithdagger2.domain.interactors.UserDetailsInteractor;
 import ru.swift.mvpwithdagger2.models.UserDetails;
 
 public class UserDetailsInteractorImpl implements UserDetailsInteractor {

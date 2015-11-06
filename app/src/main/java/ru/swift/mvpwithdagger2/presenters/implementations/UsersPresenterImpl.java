@@ -2,11 +2,8 @@ package ru.swift.mvpwithdagger2.presenters.implementations;
 
 import java.util.List;
 
-import javax.inject.Inject;
-
-import ru.swift.mvpwithdagger2.interactors.UsersInteractor;
-import ru.swift.mvpwithdagger2.interactors.implementations.UsersInteractorImpl;
-import ru.swift.mvpwithdagger2.listeners.UsersInteractorListener;
+import ru.swift.mvpwithdagger2.domain.interactors.implementations.UsersInteractorImpl;
+import ru.swift.mvpwithdagger2.domain.listeners.UsersInteractorListener;
 import ru.swift.mvpwithdagger2.models.User;
 import ru.swift.mvpwithdagger2.presenters.UsersPresenter;
 import ru.swift.mvpwithdagger2.views.UsersView;
@@ -18,7 +15,7 @@ public class UsersPresenterImpl implements UsersPresenter, UsersInteractorListen
     private UsersInteractorImpl mInteractor;
     private List<User> mUsers;
 
-    @Inject
+    //@Inject
     public UsersPresenterImpl(UsersInteractorImpl interactor) {
         mInteractor = interactor;
     }

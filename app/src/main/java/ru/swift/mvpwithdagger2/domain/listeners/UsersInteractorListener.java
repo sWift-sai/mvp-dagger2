@@ -1,4 +1,4 @@
-package ru.swift.mvpwithdagger2.listeners;
+package ru.swift.mvpwithdagger2.domain.listeners;
 
 
 import java.util.List;
