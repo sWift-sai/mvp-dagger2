@@ -15,6 +15,7 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
         assertEquals(4, 2 + 2);
     }
 
+
     public void test_addition_isCorrect2() throws Exception {
         assertEquals(3, 2 + 1);
     }
