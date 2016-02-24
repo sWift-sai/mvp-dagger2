@@ -45,7 +45,4 @@ before_script:
   - adb shell input keyevent 82 &
 
 script:
-  - ./gradlew check --continue --stacktrace
-  #- ./gradlew connectedAndroidTest --continue --stacktrace
-
-  #- ./gradlew connectedCheck --continue --stacktrace
+  - ./gradlew connectedCheck --continue --stacktrace
