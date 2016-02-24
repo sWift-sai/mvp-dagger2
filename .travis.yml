@@ -9,7 +9,7 @@ cache:
     - $HOME/.gradle/wrapper/
 
 env:
-  matrix:
+  global:
     - ANDROID_TARGET=android-21
     - ANDROID_ABI=armeabi-v7a
 android:
