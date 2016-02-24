@@ -7,7 +7,7 @@ jdk: oraclejdk8
 #  directories:
 #    - $HOME/.gradle/caches/
 #    - $HOME/.gradle/wrapper/
-
+#
 sudo: false
 cache:
   directories:
