@@ -32,7 +32,7 @@ android:
 
   # System images
   - sys-img-armeabi-v7a-android-19
-
+#
 before_install:
  - chmod +x gradlew
 
