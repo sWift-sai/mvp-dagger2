@@ -10,7 +10,7 @@ cache:
 
 env:
   matrix:
-    - ANDROID_TARGET=android-23
+    - ANDROID_TARGET=android-21
     - ANDROID_ABI=armeabi-v7a
 android:
   components:
