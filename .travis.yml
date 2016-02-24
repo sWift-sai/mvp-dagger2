@@ -1,6 +1,13 @@
 language: android
 jdk: oraclejdk8
 
+before_cache:
+  - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
+cache:
+  directories:
+    - $HOME/.gradle/caches/
+    - $HOME/.gradle/wrapper/
+
 env:
   global:
     - ANDROID_TARGET=android-19
@@ -20,4 +27,5 @@ before_script:
   - adb shell input keyevent 82 &
 
 script:
-  - ./gradlew connectedCheck
+  - android list target
+  - ./gradlew connectedAndroidTest
