@@ -12,10 +12,9 @@ env:
   global:
    # install timeout in minutes (2 minutes by default)
     - ADB_INSTALL_TIMEOUT=8
+    - ANDROID_TARGET=android-23
+    - ANDROID_ABI=armeabi-v7a
 
-  matrix:
-  # can use target 19 or 21
-    - ANDROID_TARGET=android-23 ANDROID_ABI=armeabi-v7a
 
 android:
   components:
