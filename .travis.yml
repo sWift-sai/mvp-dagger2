@@ -10,7 +10,8 @@ cache:
 
 env:
   global:
-    - ANDROID_TARGET=android-23
+  # use target 21 or 19
+    - ANDROID_TARGET=android-21
     - ANDROID_ABI=armeabi-v7a
 android:
   components:
