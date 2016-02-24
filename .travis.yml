@@ -15,7 +15,7 @@ env:
 
   matrix:
   # can use target 19 or 21
-    - ANDROID_TARGET=android-21 ANDROID_ABI=armeabi-v7a
+    - ANDROID_TARGET=android-23 ANDROID_ABI=armeabi-v7a
 
 android:
   components:
@@ -30,6 +30,9 @@ android:
 
   # Additional components
   - extra-android-m2repository
+
+  # System images
+  - sys-img-armeabi-v7a-android-23
 
 before_install:
  - chmod +x gradlew
