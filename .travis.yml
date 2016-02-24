@@ -9,6 +9,10 @@ cache:
     - $HOME/.gradle/wrapper/
 
 env:
+  global:
+   # install timeout in minutes (2 minutes by default)
+    - ADB_INSTALL_TIMEOUT=8
+
   matrix:
   # can use target 19 or 21
     - ANDROID_TARGET=android-21 ANDROID_ABI=armeabi-v7a
