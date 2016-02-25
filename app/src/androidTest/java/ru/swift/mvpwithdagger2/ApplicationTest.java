@@ -10,4 +10,13 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
     public ApplicationTest() {
         super(Application.class);
     }
+
+    public void test_addition_isCorrect() throws Exception {
+        assertEquals(4, 2 + 2);
+    }
+
+// with mistake
+    public void test_addition_isCorrect2() throws Exception {
+        assertEquals(4, 0);
+    }
 }
