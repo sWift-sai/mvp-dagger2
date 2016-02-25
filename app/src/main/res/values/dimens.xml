@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_item_title_text_size">22dp</dimen>
+    <dimen name="user_details_name_text_size">24sp</dimen>
+    <dimen name="user_details_description_text_size">18sp</dimen>
+</resources>
