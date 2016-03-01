@@ -12,11 +12,10 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
     }
 
     public void test_addition_isCorrect() throws Exception {
-        assertEquals(4, 2 + 2);
+        assertEquals(4, 2 + 2);//
     }
 
-// with mistake
     public void test_addition_isCorrect2() throws Exception {
-        assertEquals(4, 0);
+        assertEquals(4, 4);
     }
 }
